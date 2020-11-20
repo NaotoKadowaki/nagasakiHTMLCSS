@@ -89,8 +89,11 @@ input[type="checkbox"] {
     left: -50vw;
     /* top: 100px; */
     /* transform: scale(6) */
-}  
-
+} 
+ 
+.img{
+    background-image: url(https://cdn.pixabay.com/photo/2016/11/29/09/09/abstract-1868624_1280.jpg);
+}
 
 /* 
 @media screen and (max-width: 1000px) {
