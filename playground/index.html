@@ -7,7 +7,45 @@
     <title>Document</title>
 </head>
 <body>
+    <!-- 左上から右下に移動する -->
+        <body> 
+        <p>
+        <button onclick="myMove()">Click Me</button> 
+        </p>
+      
+   <div id ="myContainer">
+        <div id ="myAnimation"></div>
+        </div>  
+        
+        <script>
+        function myMove() {
+          var elem = document.getElementById("myAnimation");   
+          var pos = 0;
+          var id = setInterval(frame, 10);
+          function frame() {
+            if (pos == 350) {
+              clearInterval(id);
+            } else {
+              pos++; 
+              elem.style.top = pos + 'px'; 
+              elem.style.left = pos + 'px'; 
+            }
+          }
+        }
+        </script>
+        
+        </body>
+        <body>
+        <!-- カッコよずぎるボタン -->
+        <button class="glow-on-hover" type="button">HOVER ME, THEN CLICK ME!</button>
+       </body>
 
-    d
+       <!-- タップで画像が大きくなる -->
+       <body>
+           <a href="http://naotnaot.sakura.ne.jp/images/image4.png" target="_blank">
+            <img src="http://naotnaot.sakura.ne.jp/images/image4.png" width="200" alt=""></a>
+       </body>
+
+      
 </body>
 </html>
