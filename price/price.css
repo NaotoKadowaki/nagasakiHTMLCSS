@@ -1,0 +1,47 @@
+table{
+    width: 100%; 
+    background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTuzCqwWcNjQrzEvM03EmSOx5bSPfh2V3vESQ&usqp=CAU);
+    background-size:100px; 
+    text-align: center;
+    /* 線の間に隙間を作るかどうかのプロパティ */
+    border-collapse: collapse;
+}
+body{
+    margin: 0;
+}
+table th{
+    padding: 10px;
+    color: blue;
+    background: #fff5e5;
+    opacity: 0.5;
+    
+
+}
+table td{
+    padding: 3px 10px;
+    color: green; 
+}
+table th,table td{
+    border: solid 3px black;
+}
+span:hover{
+    color: red;
+    box-shadow: 0 3px 3px 0px coral;
+}
+
+#fab i {/*中央のアイコン*/
+  color: white;
+  line-height: 56px;/*＝幅と高さ*/
+  font-size: 18px;/*サイズ*/
+}
+
+}
+span{
+    cursor:pointer
+}
+.BBQ{
+    font-family: 'Kaushan Script', cursive;
+    font-family: 'Nerko One', cursive;
+    color: black;
+    font-size: 50px;
+}

@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<!-- このページのURL https://naotnaot.sakura.ne.jp/price.html -->
+<html lang="ja">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="price.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Nerko+One&display=swap" rel="stylesheet">
+    <!-- priceFileをサイバーダックに上げたが２File別々にしないとアップロードできなかった -->
+    <!-- そのため下はprice用のcssHttps -->
+    <!-- <link rel="stylesheet" href="https://naotnaot.sakura.ne.jp/price.css"> -->
+    <title>Document</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <th class="BBQ" colspan="3">
+                BBQ
+            </th>
+        </tr>
+        <tr>
+            <th>menu</th><th>１人前</th><th>２人前</th>
+        </tr>
+        <tr>
+            <td>肉</td><td>¥1000</td><td>¥1800</td>
+        </tr>
+        <tr><!--rowspanで同価格セル結合/横はcolspan="数"-->>
+            <td>野菜</td><td rowspan="3">¥500</td><td rowspan="3">¥800</td>
+        </tr>
+        <tr>
+            <td>酒</td>
+        </tr>
+        <tr>
+            <td>備長炭/kg</td>
+        </tr>
+        <tr>
+            <td>
+                <!-- お任せコースからクリックで詳しいmenuに画面遷移 -->
+                <a href="">
+                <span>お任せコース</span>
+               </a>
+                <br>(コース内容をクリック)</td>
+                <td>¥3000</td><td>¥5000</td>
+        </tr>
+       
+    </table>
+</body>
+</html>
