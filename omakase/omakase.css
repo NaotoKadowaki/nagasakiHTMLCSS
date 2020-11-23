@@ -1,8 +1,47 @@
+body{
+    margin: 0;
+}
 .container{
     display: grid;
-    grid-template-columns: repeat(3,minmax(200px,400px));
+    /* grid-template-columns: repeat(3,minmax(200px,400px)); */
+    /* autoより1frの方が良いため、サイズに合わせて変化するように1frに変更 */
+    grid-template-columns: repeat(3,1fr);
+    /* 並びが一つ一つ縦並びに変更される */
+    /* grid-template: repear(auto-fill,200px); */
     gap: 20px;
+    align-content: center;
 }
 .item{
     height: 200px;
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.25);
+    position: relative;
 }
+a{
+    box-shadow: 5px 10px 20px rgba(0,0,0,0.2);
+    /* 画像下に白い線が入るため{rgba}でぼかす */
+    background: rgba(0,0,0,0.1);
+}
+/* h5/pの.itemからのポジション取り */
+h3{
+    text-align: center;
+    text-shadow: 5px 5px 10px gray;
+}
+h4{
+    position: absolute;
+    right: 0;
+    top: 61px;
+    margin: 0;
+    left: 160px;
+}
+p{
+    margin: 0;
+    position: absolute;
+    right: 0;
+    top: 78px;
+    left: 160px;
+}
+span{
+   font-size: 17px; 
+}
+
+
