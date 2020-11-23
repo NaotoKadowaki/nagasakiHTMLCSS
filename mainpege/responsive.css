@@ -1,0 +1,16 @@
+ /* レスポンシブデザイン */
+  /* 画面の横幅が600pxよりも小さい時にグリッドを縦に並べることができる */
+  
+  @media screen and (max-width:600px){
+      .container{
+          grid-template-areas:
+          "header"
+          "main"
+          "sidebar"
+          "footer";
+          /* レスポンシブiphone px１画面ギリギリにサイズ合わせ */
+          grid-template-rows: 150px 300px 120px 150px;
+          /* 広がり１００％指定 */
+          grid-template-columns: 100%;
+      }
+  }

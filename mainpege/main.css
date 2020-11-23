@@ -1,0 +1,25 @@
+body{
+    margin: 0;
+}
+.container{
+    display: grid;
+    /* mac画面幅ギリギリまで指定 */
+    grid-template-rows: 150px 500px 140px;
+    grid-template-columns: auto 200px;
+    grid-template-areas: 
+    "header header"
+    "main   sidebar"
+    "footer footer";
+}
+.header{
+    grid-area: header;
+}
+.main{
+    grid-area: main;
+}
+.sidebar{
+    grid-area: sidebar;
+}
+.footer{
+    grid-area: footer;
+}
