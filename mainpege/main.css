@@ -13,6 +13,23 @@ body{
 }
 .header{
     grid-area: header;
+    text-align: left;
+    font-family: serif;
+    font-size: xx-large;
+    /* 海の家玄海参考 */
+    background-color:rgb(0,147,198);
+}
+h1{
+    font-size: 50px;
+    color: white;
+}
+/* tellマーク調整の為のinline-block化 */
+/* そこから横縦調整 */
+span{
+    display:inline-block;
+    width: 780px;
+    height: 80px;
+    text-align: end;
 }
 .main{
     grid-area: main;
@@ -23,3 +40,4 @@ body{
 .footer{
     grid-area: footer;
 }
+
