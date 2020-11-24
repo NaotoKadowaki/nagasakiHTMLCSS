@@ -21,13 +21,14 @@ body{
     /* 海の家玄海参考 */
     background-color:rgb(160,216,239);
 }
-main{
-    background-image: url(images/seaSample.jpg);
-    background-size: cover;
-}
 h1{
     font-size: 50px;
     color: white;
+}
+i{
+    width: 920px;
+    height: 80px;
+    text-align: end;
 }
 /* tellマーク調整の為のinline-block化 */
 /* そこから横縦調整 */
@@ -35,11 +36,27 @@ span .icon1{
     display:inline-block;
     
 }
-
-i{
-    width: 920px;
-    height: 80px;
-    text-align: end;
+main{
+    background-image: url(images/seaSample.jpg);
+    background-size: cover;
+}
+ul{
+    margin: 0;
+    padding: 0;
+    position: relative;
+}
+li{
+    /* button長崎の上のmargin調整 */
+    margin-top: 4px;
+}
+ul li {
+    color:rgb(75, 195, 243);
+    border-left: solid 6px rgb(160, 213, 239);
+    background: #f1f8ff;
+    margin-bottom: 3px;
+    line-height: 1.8;
+    padding: 0.5em;
+    list-style-type: none;
 }
 .main{
     grid-area: main;
@@ -50,4 +67,29 @@ i{
 .footer{
     grid-area: footer;
 }
+/* liをそのままボタン化したらデザインが崩れたので
+デザイン調整 */
+/* button{
+    display: inline;
+    padding-left: 0px;
+    border: none;
+    width: 200px;
+    padding-top: 5px;
+    padding-right: 0px;
+    background: white;
+    text-align: inherit;
+    font-size: initial;
+} */
+/* buttonデザイン調整上のとやり方は違うが一緒のやり方 */
+button{
+    padding: 0;
+    color: rgb(75,195,243);
+    background-color: rgb(160,214,239);
+    background: #f1f8ff;
+    border: 0;
+    font-size: large;
+    width: 170px;
+    text-align: inherit;
+}
+
 
