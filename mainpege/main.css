@@ -85,6 +85,7 @@ li{
 }
 
 ul li {
+    /* listのhover時のエフェクト*/
     color:rgb(75, 195, 243);
     border-left: solid 6px rgb(160, 213, 239);
     background: #f1f8ff;
@@ -117,6 +118,7 @@ ul li {
     background-size: 300% 300%;
 }
 ul li:hover {
+
     background-position: 99% 50%;
     color: #ffffff;
     cursor: pointer;
@@ -128,6 +130,11 @@ a{
 footer{
     text-align: center;
     background:#f1f8ff
+}
+div .insta{
+    /* 横幅を合わせている */
+    display: inline-flex;
+    width: -webkit-fill-available;
 }
 .header{
     grid-area: header;
