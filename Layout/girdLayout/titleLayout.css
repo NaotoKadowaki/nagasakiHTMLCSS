@@ -1,0 +1,11 @@
+.container{
+    display: grid;
+    /*repeat(3)４つ以上は折り返し(5だったらその次折り返し)/<1fr/auto>で画面サイズに合わせ横幅の調整*/
+    /* repeat(auto-fill)画面サイズに合わせグリットの数を変化させる */
+    /* repeat(3,minmax(160px,240px)グリッドを横に３つ並べて、画面サイズに
+    合わせ各グリッドをmin160px,max240pxの範囲で変化することができる */
+    /* repeat(5)でレスポンシブしなかった場合、横スクロールしないと表示されない */
+    grid-template-columns: repeat(3,180px);
+    /* title事のスペース */
+    gap: 20px;
+}
