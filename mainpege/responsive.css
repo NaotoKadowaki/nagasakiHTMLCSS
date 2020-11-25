@@ -8,13 +8,14 @@
           "main"
           "sidebar"
           "footer";
-          /* レスポンシブiphone px１画面ギリギリにサイズ合わせ */
-          grid-template-rows: 150px 300px 120px 150px;
+          grid-template-rows:300px 900px 300px;
+          /* 150px 300px 120px 150px */
           /* 広がり１００％指定 */
           grid-template-columns: 100%;
       }
+      h1{
+        font-size: 60px;
+    }
   }
-  h1{
-      font-size: 40px;
-  }
- 
+
+
