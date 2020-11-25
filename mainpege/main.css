@@ -14,7 +14,6 @@ body{
     "footer footer";
 }
 .header{
-    grid-area: header;
     text-align: left;
     font-family: serif;
     font-size: xx-large;
@@ -47,7 +46,7 @@ span .icon1{
 .sea{
     position: relative;
 }
-.sea p{
+.sea p {
     position: absolute;
     top: 50%;
     left: 50%;
@@ -68,10 +67,17 @@ img{
 aside{
     margin-top: 1px;
 }
+nav{
+    /* text大文字に */
+    text-transform: uppercase;
+}
 ul{
     margin: 0;
     padding: 0;
     position: relative;
+    font-weight: bold;
+    font-family: cursive
+    
 }
 li{
     /* button長崎の上のmargin調整 */
@@ -122,6 +128,9 @@ a{
 footer{
     text-align: center;
     background:#f1f8ff
+}
+.header{
+    grid-area: header;
 }
 .main{
     grid-area: main;
