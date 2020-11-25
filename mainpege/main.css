@@ -58,6 +58,10 @@ ul li {
     padding: 0.5em;
     list-style-type: none;
 }
+a{
+    text-decoration: none;
+    color:rgb(75, 195, 243);
+}
 .main{
     grid-area: main;
 }
@@ -81,7 +85,8 @@ ul li {
     font-size: initial;
 } */
 /* buttonデザイン調整上のとやり方は違うが一緒のやり方 */
-button{
+/* button化中止/<a>に変更 */
+/* button{
     padding: 0;
     color: rgb(75,195,243);
     background-color: rgb(160,214,239);
@@ -90,6 +95,5 @@ button{
     font-size: large;
     width: 170px;
     text-align: inherit;
-}
-
+} */
 
