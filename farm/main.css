@@ -34,20 +34,48 @@ body,html {
 }
 /* タイトル */
 .parallax h2{
-    color: rgb(145, 216, 87);
+    color: rgb(45,101,16);
     font-size: 80px;
     text-align: center;
     position: fixed;
     width: 100%;
     top: 20%;
+    opacity: 0.5;
 }
 .contents{
     position: relative;
     z-index: 1;
     height: 500px;
-    background:rgb(158, 192, 34);
+    background:rgb(48, 59, 8);
     font-size: 60px;
-    background-image: url(imags/farm2.jpg);
-    opacity: 0.4;
+    background: rgb(185,147,94);
+    /* background-image: url(imags/farm2.jpg); */
+    opacity: 0.8;
     text-align: center;
+}
+h3{
+    margin: 0;
+}
+.information{
+    margin: 0;
+    font-size: 40px;
+    font-family: monospace;
+}
+nav{
+    font-size: 40px;
+    text-align: center;
+}
+ul{
+    font-family: monospace;
+    padding: 0;
+}
+li {
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: rgb(37, 46, 3);
+}
+span{
+    font-size: 40px;
 }
