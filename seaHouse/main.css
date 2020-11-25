@@ -19,7 +19,7 @@ body{
     font-size: xx-large;
     /* 海の家玄海参考 */
     background-color:rgb(160,216,239);
-    height: 120px;
+    height: 130px;
 }
 h1{
     font-size: 35px;
@@ -27,22 +27,7 @@ h1{
     font-family: cursive;
     font-weight: bolder;
 }
-i{
-    width: 920px;
-    height: 80px;
-    text-align: end;
-}
-/* tellマーク調整の為のinline-block化 */
-/* そこから横縦調整 */
-span .icon1{
-    display:inline-block;
-    
-}
-/* main{
-    background-image: url(images/seaSample.jpg);
-    background-size: cover;
 
-} */
 .sea{
     position: relative;
 }
