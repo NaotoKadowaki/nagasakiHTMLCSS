@@ -79,3 +79,9 @@ a{
 span{
     font-size: 40px;
 }
+span::before{
+    content:'↓';
+}
+span::after{
+    content: '↓';
+}
